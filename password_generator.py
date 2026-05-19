@@ -1,6 +1,7 @@
 
 def generate_password(min_length, numbers=True, special_characters=True):
     import string
+    import random
     letters = string.ascii_letters
     digits = string.digits
     special = string.punctuation
@@ -17,7 +18,6 @@ def generate_password(min_length, numbers=True, special_characters=True):
     has_special = False
 
     while not meets_criteria or len(pwd) < min_length:
-        import random
         new_char = random.choice(characters)
         pwd += new_char
 
