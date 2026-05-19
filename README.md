@@ -1,4 +1,4 @@
-# Password Generator 🔐
+# Password Generator 
 
 A beginner Python project that generates secure, randomized passwords 
 based on user preferences. Built as part of my journey learning 
